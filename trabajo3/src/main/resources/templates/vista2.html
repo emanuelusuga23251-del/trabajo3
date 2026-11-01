@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Punto 3</title>
+</head>
+<body>
+<h2>Juegos filtrados por tipo: <span th:text="${tipo}"></span></h2>
+<ul>
+    <li th:each="linea : ${filtrados}" th:text="${linea}"></li>
+</ul>
+</body>
+</html>

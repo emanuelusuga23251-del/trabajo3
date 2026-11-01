@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Punto 2</title>
+</head>
+<body>
+<h2>Stack recorrido con ListIterator</h2>
+<ul>
+    <li th:each="linea : ${pila}" th:text="${linea}"></li>
+</ul>
+
+<h2>Deque de la serie recorrido con Iterator</h2>
+<ul>
+    <li th:each="linea : ${serie}" th:text="${linea}"></li>
+</ul>
+</body>
+</html>

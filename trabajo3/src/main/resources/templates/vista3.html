@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Punto 4</title>
+</head>
+<body>
+<h2>Total de horas jugadas por juego (Function + apply)</h2>
+<ul>
+    <li th:each="linea : ${totales}" th:text="${linea}"></li>
+</ul>
+</body>
+</html>
